@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - City Vineyard Church Kenya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="327174501_492420062964290_5060072290956086633_n-Picsart-AiImageEnhancer-removebg-preview.png">
+    
+    <!-- Your existing stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-text">City <span>Vineyard</span></div>
+            </a>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                     <li><a href="resources.html">Resources</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="giving.html">Giving</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="hero" style="background-image: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.9)), url('https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'); height: 60vh; margin-top: 80px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Church Events</h1>
+                <p>Join us for fellowship, growth, and service. There's always something happening at City Vineyard.</p>
+                <div class="hero-buttons">
+                    <a href="#upcoming-events" class="btn">View Upcoming Events</a>
+                    <a href="#calendar-view" class="btn btn-secondary">Calendar View</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Event Section -->
+    <section id="featured-event">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Event</h2>
+                <p>Don't miss this special gathering</p>
+            </div>
+            
+            <div class="featured-event-container" style="background: var(--bg-secondary); border-radius: 12px; overflow: hidden; border: 1px solid var(--border-color); display: flex; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Youth Camp 2023" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+                <div style="flex: 1; min-width: 300px; padding: 40px;">
+                    <div style="display: inline-block; background: var(--gradient-primary); color: var(--black); padding: 5px 15px; border-radius: 20px; font-weight: 600; font-size: 0.9rem; margin-bottom: 20px;">
+                        FEATURED EVENT
+                    </div>
+                    <h3 style="margin-bottom: 15px; background: linear-gradient(135deg, var(--purple-primary) 0%, var(--green-primary) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                        Annual Youth Camp 2023
+                    </h3>
+                    <p style="margin-bottom: 20px; color: var(--text-secondary);">
+                        Our biggest youth event of the year! Three days of worship, teaching, games, and fellowship at the beautiful Naivasha Retreat Center. This year's theme is "Unshakable Faith" focusing on building a foundation that lasts.
+                    </p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 25px;">
+                        <div>
+                            <h4 style="color: var(--green-primary); margin-bottom: 5px; font-size: 1rem;">
+                                <i class="far fa-calendar" style="margin-right: 8px;"></i>
+                                Date
+                            </h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">June 30 - July 2, 2023</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--green-primary); margin-bottom: 5px; font-size: 1rem;">
+                                <i class="far fa-clock" style="margin-right: 8px;"></i>
+                                Time
+                            </h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">All Day Event</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--green-primary); margin-bottom: 5px; font-size: 1rem;">
+                                <i class="fas fa-map-marker-alt" style="margin-right: 8px;"></i>
+                                Location
+                            </h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Naivasha Retreat Center</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--green-primary); margin-bottom: 5px; font-size: 1rem;">
+                                <i class="fas fa-users" style="margin-right: 8px;"></i>
+                                For Ages
+                            </h4>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">13-25 Years</p>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                        <a href="#" class="btn">
+                            <i class="fas fa-ticket-alt" style="margin-right: 8px;"></i>
+                            Register Now
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fas fa-share" style="margin-right: 8px;"></i>
+                            Share Event
+                        </a>
+                        <a href="#" class="btn" style="background: transparent; border: 2px solid var(--purple-primary);">
+                            <i class="far fa-calendar-plus" style="margin-right: 8px;"></i>
+                            Add to Calendar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section class="services" id="upcoming-events">
+        <div class="container">
+            <div class="section-header">
+                <h2>Upcoming Events</h2>
+                <p>Mark your calendar for these upcoming gatherings</p>
+            </div>
+            
+            <!-- Filter Options -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; flex-wrap: wrap; gap: 15px;">
+                <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                    <button class="btn" style="padding: 8px 16px; background: var(--purple-primary);">All Events</button>
+                    <button class="btn" style="padding: 8px 16px; background: transparent; border: 2px solid var(--border-color);">This Week</button>
+                    <button class="btn" style="padding: 8px 16px; background: transparent; border: 2px solid var(--border-color);">This Month</button>
+                    <button class="btn" style="padding: 8px 16px; background: transparent; border: 2px solid var(--border-color);">By Category</button>
+                </div>
+                <div style="position: relative;">
+                    <input type="text" placeholder="Search events..." style="padding: 10px 15px 10px 40px; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 6px; color: var(--text-primary); width: 250px;">
+                    <i class="fas fa-search" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: var(--text-muted);"></i>
+                </div>
+            </div>
+            
+            <!-- Events List -->
+            <div class="events-list">
+                <!-- Event 1 -->
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="day">25</div>
+                        <div class="month">JUN</div>
+                    </div>
+                    <div class="event-details">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 15px;">
+                            <div>
+                                <h3>Community Outreach Day</h3>
+                                <div class="event-meta">
+                                    <span><i class="far fa-clock"></i> 9:00 AM - 2:00 PM</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Nairobi City Center</span>
+                                    <span><i class="fas fa-users"></i> All Ages Welcome</span>
+                                </div>
+                                <p>Join us as we serve our local community through various outreach activities including feeding programs, medical checkups, and children's activities. We'll be partnering with local organizations to make a tangible difference.</p>
+                            </div>
+                            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fas fa-info-circle" style="margin-right: 5px;"></i>
+                                    Details
+                                </a>
+                                <a href="#" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fas fa-user-plus" style="margin-right: 5px;"></i>
+                                    RSVP
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Event 2 -->
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="day">02</div>
+                        <div class="month">JUL</div>
+                    </div>
+                    <div class="event-details">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 15px;">
+                            <div>
+                                <h3>Marriage Enrichment Seminar</h3>
+                                <div class="event-meta">
+                                    <span><i class="far fa-clock"></i> 10:00 AM - 4:00 PM</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Church Main Hall</span>
+                                    <span><i class="fas fa-users"></i> Married Couples</span>
+                                </div>
+                                <p>A one-day seminar for married couples looking to strengthen their relationship through biblical principles. Featuring guest speakers, workshops, and couple activities. Childcare will be provided.</p>
+                            </div>
+                            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fas fa-info-circle" style="margin-right: 5px;"></i>
+                                    Details
+                                </a>
+                                <a href="#" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fas fa-user-plus" style="margin-right: 5px;"></i>
+                                    Register
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Event 3 -->
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="day">15</div>
+                        <div class="month">JUL</div>
+                    </div>
+                    <div class="event-details">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 15px;">
+                            <div>
+                                <h3>Baptism Sunday</h3>
+                                <div class="event-meta">
+                                    <span><i class="far fa-clock"></i> During Both Services</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Church Sanctuary</span>
+                                    <span><i class="fas fa-users"></i> All Congregation</span>
+                                </div>
+                                <p>Special baptism service where we'll celebrate new believers publicly declaring their faith in Jesus Christ. If you're interested in being baptized, please attend our mandatory baptism class on July 8th.</p>
+                            </div>
+                            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fas fa-info-circle" style="margin-right: 5px;"></i>
+                                    Details
+                                </a>
+                                <a href="#" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fas fa-tint" style="margin-right: 5px;"></i>
+                                    Get Baptized
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Event 4 -->
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="day">22</div>
+                        <div class="month">JUL</div>
+                    </div>
+                    <div class="event-details">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 15px;">
+                            <div>
+                                <h3>Women's Conference: "Radiant"</h3>
+                                <div class="event-meta">
+                                    <span><i class="far fa-clock"></i> 8:00 AM - 5:00 PM</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Conference Center</span>
+                                    <span><i class="fas fa-users"></i> Women Only</span>
+                                </div>
+                                <p>A day of encouragement, worship, and teaching specifically for women. Featuring guest speaker Dr. Grace Mwende and workshops on various topics including spiritual growth, relationships, and purpose.</p>
+                            </div>
+                            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fas fa-info-circle" style="margin-right: 5px;"></i>
+                                    Details
+                                </a>
+                                <a href="#" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fas fa-ticket-alt" style="margin-right: 5px;"></i>
+                                    Get Tickets
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Event 5 -->
+                <div class="event-item">
+                    <div class="event-date">
+                        <div class="day">05</div>
+                        <div class="month">AUG</div>
+                    </div>
+                    <div class="event-details">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 15px;">
+                            <div>
+                                <h3>Men's Breakfast & Prayer</h3>
+                                <div class="event-meta">
+                                    <span><i class="far fa-clock"></i> 7:30 AM - 9:30 AM</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> Church Fellowship Hall</span>
+                                    <span><i class="fas fa-users"></i> Men Only</span>
+                                </div>
+                                <p>Monthly gathering for men to connect, enjoy breakfast together, and pray for one another. This month we'll be discussing "Leading with Integrity in the Workplace" with special guest speaker.</p>
+                            </div>
+                            <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                                <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fas fa-info-circle" style="margin-right: 5px;"></i>
+                                    Details
+                                </a>
+                                <a href="#" class="btn btn-secondary" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fas fa-utensils" style="margin-right: 5px;"></i>
+                                    RSVP
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Load More Button -->
+            <div style="text-align: center; margin-top: 40px;">
+                <button class="btn" style="padding: 12px 30px;">
+                    <i class="fas fa-redo" style="margin-right: 8px;"></i>
+                    Load More Events
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendar View Section -->
+    <section id="calendar-view">
+        <div class="container">
+            <div class="section-header">
+                <h2>Calendar View</h2>
+                <p>Browse events by month</p>
+            </div>
+            
+            <div style="background: var(--bg-secondary); border-radius: 12px; padding: 30px; border: 1px solid var(--border-color);">
+                <!-- Calendar Navigation -->
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; flex-wrap: wrap; gap: 15px;">
+                    <h3 style="margin: 0; background: linear-gradient(135deg, var(--purple-primary) 0%, var(--green-primary) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                        July 2023
+                    </h3>
+                    <div style="display: flex; gap: 10px;">
+                        <button class="btn" style="padding: 8px 12px; background: transparent; border: 2px solid var(--border-color);">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="btn" style="padding: 8px 12px; background: var(--purple-primary);">
+                            Today
+                        </button>
+                        <button class="btn" style="padding: 8px 12px; background: transparent; border: 2px solid var(--border-color);">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Calendar Grid -->
+                <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 1px; background: var(--border-color); border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden;">
+                    <!-- Day Headers -->
+                    <div style="background: var(--bg-primary); padding: 15px; text-align: center; font-weight: 600; color: var(--green-primary);">SUN</div>
+                    <div style="background: var(--bg-primary); padding: 15px; text-align: center; font-weight: 600; color: var(--green-primary);">MON</div>
+                    <div style="background: var(--bg-primary); padding: 15px; text-align: center; font-weight: 600; color: var(--green-primary);">TUE</div>
+                    <div style="background: var(--bg-primary); padding: 15px; text-align: center; font-weight: 600; color: var(--green-primary);">WED</div>
+                    <div style="background: var(--bg-primary); padding: 15px; text-align: center; font-weight: 600; color: var(--green-primary);">THU</div>
+                    <div style="background: var(--bg-primary); padding: 15px; text-align: center; font-weight: 600; color: var(--green-primary);">FRI</div>
+                    <div style="background: var(--bg-primary); padding: 15px; text-align: center; font-weight: 600; color: var(--green-primary);">SAT</div>
+                    
+                    <!-- Calendar Days -->
+                    <!-- Week 1 -->
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">26</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">27</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">28</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">29</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">30</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); position: relative;">
+                        1
+                        <div style="position: absolute; top: 5px; right: 5px; background: var(--gradient-primary); width: 8px; height: 8px; border-radius: 50%;"></div>
+                    </div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-bottom: 1px solid var(--border-color);">2</div>
+                    
+                    <!-- Week 2 -->
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">3</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">4</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">5</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">6</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">7</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">8</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-bottom: 1px solid var(--border-color);">9</div>
+                    
+                    <!-- Week 3 with events -->
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">10</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">11</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">12</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">13</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); position: relative;">
+                        14
+                        <div style="position: absolute; top: 5px; right: 5px; background: var(--gradient-primary); width: 8px; height: 8px; border-radius: 50%;"></div>
+                    </div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); position: relative;">
+                        15
+                        <div style="background: rgba(138, 43, 226, 0.2); padding: 5px; border-radius: 4px; margin-top: 5px; font-size: 0.7rem;">
+                            Baptism Sunday
+                        </div>
+                    </div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-bottom: 1px solid var(--border-color);">16</div>
+                    
+                    <!-- Continue with remaining weeks... -->
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">17</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">18</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">19</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">20</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); position: relative;">
+                        21
+                        <div style="position: absolute; top: 5px; right: 5px; background: var(--gradient-primary); width: 8px; height: 8px; border-radius: 50%;"></div>
+                    </div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); position: relative;">
+                        22
+                        <div style="background: rgba(138, 43, 226, 0.2); padding: 5px; border-radius: 4px; margin-top: 5px; font-size: 0.7rem;">
+                            Women's Conference
+                        </div>
+                    </div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-bottom: 1px solid var(--border-color);">23</div>
+                    
+                    <!-- Final week -->
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color);">24</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color);">25</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color);">26</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color);">27</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color);">28</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px; border-right: 1px solid var(--border-color);">29</div>
+                    <div style="background: var(--bg-primary); padding: 10px; min-height: 100px;">30</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recurring Events Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Weekly & Monthly Events</h2>
+                <p>Regular gatherings you can always count on</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-content" style="text-align: center;">
+                        <div class="contact-icon" style="margin: 0 auto 20px auto; background: var(--gradient-primary);">
+                            <i class="fas fa-church"></i>
+                        </div>
+                        <h3>Sunday Services</h3>
+                        <p>Join us every Sunday for worship and teaching at 8:00 AM and 10:30 AM. Children's church and nursery available.</p>
+                        <p style="color: var(--green-primary); font-weight: 600; margin-top: 15px;">Every Sunday</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-content" style="text-align: center;">
+                        <div class="contact-icon" style="margin: 0 auto 20px auto; background: var(--gradient-primary);">
+                            <i class="fas fa-hands-praying"></i>
+                        </div>
+                        <h3>Wednesday Prayer</h3>
+                        <p>Corporate prayer meeting every Wednesday evening. Come join us as we seek God together for our church and city.</p>
+                        <p style="color: var(--green-primary); font-weight: 600; margin-top: 15px;">Wednesdays, 6:00 PM</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-content" style="text-align: center;">
+                        <div class="contact-icon" style="margin: 0 auto 20px auto; background: var(--gradient-primary);">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Small Groups</h3>
+                        <p>Connect with others in home groups throughout the week for Bible study, fellowship, and prayer.</p>
+                        <p style="color: var(--green-primary); font-weight: 600; margin-top: 15px;">Various Days & Times</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Submission Section -->
+    <section>
+        <div class="container">
+            <div class="section-header">
+                <h2>Have an Event Idea?</h2>
+                <p>We'd love to hear about your event suggestions</p>
+            </div>
+            <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <p style="margin-bottom: 30px; color: var(--text-secondary);">
+                    Do you have an idea for an event that would bless our church community? We're always looking for new ways to connect, serve, and grow together.
+                </p>
+                <a href="contact.html" class="btn" style="padding: 12px 30px;">
+                    <i class="fas fa-lightbulb" style="margin-right: 8px;"></i>
+                    Suggest an Event
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>City Vineyard Church</h3>
+                    <p>A community of faith, hope, and love in the heart of Kenya. Join us as we grow together in Christ and serve our community.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="sermons.html">Sermons</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Ministries</h3>
+                    <ul>
+                        <li><a href="services.html">Children's Ministry</a></li>
+                        <li><a href="services.html">Youth Ministry</a></li>
+                        <li><a href="services.html">Women's Fellowship</a></li>
+                        <li><a href="services.html">Men's Group</a></li>
+                        <li><a href="services.html">Outreach Programs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Faith Avenue, Nairobi</li>
+                        <li><i class="fas fa-phone"></i> +254 700 123 456</li>
+                        <li><i class="fas fa-envelope"></i> info@cityvineyard.co.

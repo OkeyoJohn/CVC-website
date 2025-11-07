@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sermons - City Vineyard Church Kenya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="327174501_492420062964290_5060072290956086633_n-Picsart-AiImageEnhancer-removebg-preview.png">
+    
+    <!-- Your existing stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-text">City <span>Vineyard</span></div>
+            </a>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul>
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                     <li><a href="resources.html">Resources</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="giving.html">Giving</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="hero" style="background-image: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.9)), url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'); height: 60vh; margin-top: 80px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Weekly Sermons</h1>
+                <p>Watch or listen to our latest messages. Grow in faith wherever you are.</p>
+                <div class="hero-buttons">
+                    <a href="#featured-sermon" class="btn">Watch Latest Sermon</a>
+                    <a href="#sermon-library" class="btn btn-secondary">Browse All Messages</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Sermon Section -->
+    <section id="featured-sermon">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Sermon</h2>
+                <p>This week's message from our Sunday service</p>
+            </div>
+            
+            <div class="featured-sermon-container" style="background: var(--bg-secondary); border-radius: 12px; overflow: hidden; border: 1px solid var(--border-color);">
+                <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <iframe 
+                        src="https://www.youtube.com/embed/6g8h8lmi5_s" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div style="padding: 30px;">
+                    <div class="sermon-meta" style="margin-bottom: 15px;">
+                        <span>June 18, 2023</span>
+                        <span>Pastor John Mwangi</span>
+                        <span>Series: Foundations of Faith</span>
+                    </div>
+                    <h3 style="margin-bottom: 15px; background: linear-gradient(135deg, var(--purple-primary) 0%, var(--green-primary) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                        Walking in God's Promises
+                    </h3>
+                    <p style="margin-bottom: 20px; color: var(--text-secondary);">
+                        In this powerful message, Pastor John explores what it means to truly walk in God's promises daily. 
+                        Learn how to claim God's Word for your life and stand firm in faith during challenging times.
+                    </p>
+                    <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                        <a href="#" class="btn" style="padding: 10px 20px;">
+                            <i class="fas fa-download" style="margin-right: 8px;"></i>
+                            Download Notes
+                        </a>
+                        <a href="#" class="btn btn-secondary" style="padding: 10px 20px;">
+                            <i class="fas fa-headphones" style="margin-right: 8px;"></i>
+                            Audio Only
+                        </a>
+                        <a href="#" class="btn" style="padding: 10px 20px; background: transparent; border: 2px solid var(--purple-primary);">
+                            <i class="fas fa-share" style="margin-right: 8px;"></i>
+                            Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sermon Series Section -->
+    <section class="services" id="sermon-series">
+        <div class="container">
+            <div class="section-header">
+                <h2>Current Series</h2>
+                <p>Explore our ongoing sermon series</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1542403817-3a17471ec42d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Foundations of Faith series">
+                    </div>
+                    <div class="service-content">
+                        <span class="sermon-meta" style="display: block; margin-bottom: 10px;">Current Series • 6 Messages</span>
+                        <h3>Foundations of Faith</h3>
+                        <p>Building a strong spiritual foundation for everyday life. This series explores the core beliefs that sustain us through life's challenges.</p>
+                        <div style="margin-top: 20px;">
+                            <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">View Series</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1534337621606-e3df5ee0e97f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Parables of Jesus series">
+                    </div>
+                    <div class="service-content">
+                        <span class="sermon-meta" style="display: block; margin-bottom: 10px;">Recent Series • 8 Messages</span>
+                        <h3>Parables of Jesus</h3>
+                        <p>Discover the timeless wisdom in Jesus' parables and how they apply to our modern lives and relationships.</p>
+                        <div style="margin-top: 20px;">
+                            <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">View Series</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1552422535-c45813c61732?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Kingdom Living series">
+                    </div>
+                    <div class="service-content">
+                        <span class="sermon-meta" style="display: block; margin-bottom: 10px;">Upcoming Series • Starts July 2</span>
+                        <h3>Kingdom Living</h3>
+                        <p>Learn what it means to live as citizens of God's kingdom in today's world. Practical teachings for everyday faith.</p>
+                        <div style="margin-top: 20px;">
+                            <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.9rem;">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sermon Library Section -->
+    <section id="sermon-library">
+        <div class="container">
+            <div class="section-header">
+                <h2>Sermon Library</h2>
+                <p>Browse our collection of messages from recent months</p>
+            </div>
+            
+            <!-- Filter Options -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 30px; flex-wrap: wrap; gap: 15px;">
+                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                    <button class="btn" style="padding: 8px 16px; background: var(--purple-primary);">All Messages</button>
+                    <button class="btn" style="padding: 8px 16px; background: transparent; border: 2px solid var(--border-color);">Recent First</button>
+                    <button class="btn" style="padding: 8px 16px; background: transparent; border: 2px solid var(--border-color);">By Series</button>
+                    <button class="btn" style="padding: 8px 16px; background: transparent; border: 2px solid var(--border-color);">By Speaker</button>
+                </div>
+                <div style="position: relative;">
+                    <input type="text" placeholder="Search sermons..." style="padding: 10px 15px 10px 40px; background: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: 6px; color: var(--text-primary); width: 250px;">
+                    <i class="fas fa-search" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: var(--text-muted);"></i>
+                </div>
+            </div>
+            
+            <!-- Sermon Grid -->
+            <div class="sermons-grid">
+                <!-- Sermon 1 -->
+                <div class="sermon-card">
+                    <div class="sermon-image" style="position: relative;">
+                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Sermon thumbnail">
+                        <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem;">
+                            <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                        </div>
+                        <div style="position: absolute; bottom: 10px; left: 10px; background: var(--gradient-primary); color: var(--black); padding: 3px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">
+                            45:22
+                        </div>
+                    </div>
+                    <div class="sermon-content">
+                        <div class="sermon-meta">
+                            <span>June 11, 2023</span>
+                            <span>Pastor Sarah</span>
+                        </div>
+                        <h3>The Power of Community</h3>
+                        <p style="margin-bottom: 15px;">How authentic relationships in Christ can transform our lives and strengthen our faith journey.</p>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                            </a>
+                            <a href="#" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-headphones" style="margin-right: 5px;"></i>Listen
+                            </a>
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem; background: transparent; border: 1px solid var(--border-color);">
+                                <i class="fas fa-download" style="margin-right: 5px;"></i>Notes
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sermon 2 -->
+                <div class="sermon-card">
+                    <div class="sermon-image" style="position: relative;">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Sermon thumbnail">
+                        <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem;">
+                            <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                        </div>
+                        <div style="position: absolute; bottom: 10px; left: 10px; background: var(--gradient-primary); color: var(--black); padding: 3px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">
+                            52:10
+                        </div>
+                    </div>
+                    <div class="sermon-content">
+                        <div class="sermon-meta">
+                            <span>June 4, 2023</span>
+                            <span>Pastor John</span>
+                        </div>
+                        <h3>Finding Hope in Hard Times</h3>
+                        <p style="margin-bottom: 15px;">Biblical perspectives on navigating challenges and discovering God's faithfulness in difficult seasons.</p>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                            </a>
+                            <a href="#" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-headphones" style="margin-right: 5px;"></i>Listen
+                            </a>
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem; background: transparent; border: 1px solid var(--border-color);">
+                                <i class="fas fa-download" style="margin-right: 5px;"></i>Notes
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sermon 3 -->
+                <div class="sermon-card">
+                    <div class="sermon-image" style="position: relative;">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Sermon thumbnail">
+                        <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem;">
+                            <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                        </div>
+                        <div style="position: absolute; bottom: 10px; left: 10px; background: var(--gradient-primary); color: var(--black); padding: 3px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">
+                            38:45
+                        </div>
+                    </div>
+                    <div class="sermon-content">
+                        <div class="sermon-meta">
+                            <span>May 28, 2023</span>
+                            <span>Pastor David</span>
+                        </div>
+                        <h3>Living by Faith</h3>
+                        <p style="margin-bottom: 15px;">Exploring what it means to walk by faith in our daily lives and trust God in every circumstance.</p>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                            </a>
+                            <a href="#" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-headphones" style="margin-right: 5px;"></i>Listen
+                            </a>
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem; background: transparent; border: 1px solid var(--border-color);">
+                                <i class="fas fa-download" style="margin-right: 5px;"></i>Notes
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sermon 4 -->
+                <div class="sermon-card">
+                    <div class="sermon-image" style="position: relative;">
+                        <img src="https://images.unsplash.com/photo-1542403817-3a17471ec42d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Sermon thumbnail">
+                        <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem;">
+                            <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                        </div>
+                        <div style="position: absolute; bottom: 10px; left: 10px; background: var(--gradient-primary); color: var(--black); padding: 3px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">
+                            41:18
+                        </div>
+                    </div>
+                    <div class="sermon-content">
+                        <div class="sermon-meta">
+                            <span>May 21, 2023</span>
+                            <span>Pastor Sarah</span>
+                        </div>
+                        <h3>The Heart of Worship</h3>
+                        <p style="margin-bottom: 15px;">Understanding true worship beyond music - it's a lifestyle that honors God in everything we do.</p>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                            </a>
+                            <a href="#" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-headphones" style="margin-right: 5px;"></i>Listen
+                            </a>
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem; background: transparent; border: 1px solid var(--border-color);">
+                                <i class="fas fa-download" style="margin-right: 5px;"></i>Notes
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sermon 5 -->
+                <div class="sermon-card">
+                    <div class="sermon-image" style="position: relative;">
+                        <img src="https://images.unsplash.com/photo-1534337621606-e3df5ee0e97f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Sermon thumbnail">
+                        <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem;">
+                            <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                        </div>
+                        <div style="position: absolute; bottom: 10px; left: 10px; background: var(--gradient-primary); color: var(--black); padding: 3px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">
+                            47:32
+                        </div>
+                    </div>
+                    <div class="sermon-content">
+                        <div class="sermon-meta">
+                            <span>May 14, 2023</span>
+                            <span>Pastor John</span>
+                        </div>
+                        <h3>Grace for the Journey</h3>
+                        <p style="margin-bottom: 15px;">Discovering God's sufficient grace for every season of life and learning to extend that grace to others.</p>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                            </a>
+                            <a href="#" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-headphones" style="margin-right: 5px;"></i>Listen
+                            </a>
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem; background: transparent; border: 1px solid var(--border-color);">
+                                <i class="fas fa-download" style="margin-right: 5px;"></i>Notes
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Sermon 6 -->
+                <div class="sermon-card">
+                    <div class="sermon-image" style="position: relative;">
+                        <img src="https://images.unsplash.com/photo-1552422535-c45813c61732?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80" alt="Sermon thumbnail">
+                        <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 5px 10px; border-radius: 4px; font-size: 0.8rem;">
+                            <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                        </div>
+                        <div style="position: absolute; bottom: 10px; left: 10px; background: var(--gradient-primary); color: var(--black); padding: 3px 8px; border-radius: 4px; font-size: 0.8rem; font-weight: 600;">
+                            43:15
+                        </div>
+                    </div>
+                    <div class="sermon-content">
+                        <div class="sermon-meta">
+                            <span>May 7, 2023</span>
+                            <span>Pastor David</span>
+                        </div>
+                        <h3>Building Godly Relationships</h3>
+                        <p style="margin-bottom: 15px;">Biblical principles for developing healthy, Christ-centered relationships in family, friendship, and community.</p>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-play" style="margin-right: 5px;"></i>Watch
+                            </a>
+                            <a href="#" class="btn btn-secondary" style="padding: 6px 12px; font-size: 0.8rem;">
+                                <i class="fas fa-headphones" style="margin-right: 5px;"></i>Listen
+                            </a>
+                            <a href="#" class="btn" style="padding: 6px 12px; font-size: 0.8rem; background: transparent; border: 1px solid var(--border-color);">
+                                <i class="fas fa-download" style="margin-right: 5px;"></i>Notes
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Load More Button -->
+            <div style="text-align: center; margin-top: 40px;">
+                <button class="btn" style="padding: 12px 30px;">
+                    <i class="fas fa-redo" style="margin-right: 8px;"></i>
+                    Load More Sermons
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Never Miss a Message</h2>
+                <p>Subscribe to stay updated with our latest sermons</p>
+            </div>
+            <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+                <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; justify-content: center;">
+                    <a href="#" class="btn" style="padding: 10px 20px;">
+                        <i class="fab fa-youtube" style="margin-right: 8px;"></i>
+                        YouTube
+                    </a>
+                    <a href="#" class="btn" style="padding: 10px 20px; background: transparent; border: 2px solid var(--purple-primary);">
+                        <i class="fab fa-spotify" style="margin-right: 8px;"></i>
+                        Spotify
+                    </a>
+                    <a href="#" class="btn" style="padding: 10px 20px; background: transparent; border: 2px solid var(--purple-primary);">
+                        <i class="fab fa-apple" style="margin-right: 8px;"></i>
+                        Apple Podcasts
+                    </a>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: 20px;">
+                    Subscribe to our channels and get notified when new sermons are published. 
+                    Available on all major podcast platforms.
+                </p>
+                <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                    <input type="email" placeholder="Enter your email" style="padding: 12px 15px; background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 6px; color: var(--text-primary); min-width: 250px;">
+                    <button class="btn" style="padding: 12px 25px;">
+                        <i class="fas fa-envelope" style="margin-right: 8px;"></i>
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>City Vineyard Church</h3>
+                    <p>A community of faith, hope, and love in the heart of Kenya. Join us as we grow together in Christ and serve our community.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="sermons.html">Sermons</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Ministries</h3>
+                    <ul>
+                        <li><a href="services.html">Children's Ministry</a></li>
+                        <li><a href="services.html">Youth Ministry</a></li>
+                        <li><a href="services.html">Women's Fellowship</a></li>
+                        <li><a href="services.html">Men's Group</a></li>
+                        <li><a href="services.html">Outreach Programs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Faith Avenue, Nairobi</li>
+                        <li><i class="fas fa-phone"></i> +254 700 123 456</li>
+                        <li><i class="fas fa-envelope"></i> info@cityvineyard.co.ke</li>
+                        <li><i class="far fa-clock"></i> Sundays: 8:00 AM & 10:30 AM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 City Vineyard Church Kenya. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
