@@ -190,13 +190,15 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0 ;
+
 }
 
 .logo {
-  display: flex;
+  display:flex;
   align-items: center;
   gap: 10px; 
   text-decoration: none;
+
 }
 
 .logo img {
@@ -204,6 +206,9 @@ header {
   width: auto;
   display: block;
   gap: 10px;
+  width: 70px;
+  height: 70px;
+  margin-left: -80%;
 }
 
 .logo-text {
@@ -216,6 +221,9 @@ header {
   background-clip: text;
   line-height: 1.1;
   display: block;
+  margin-left: -25%;
+  margin-top: 45px
+  ;
   
 }
 
